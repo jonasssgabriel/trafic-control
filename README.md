@@ -5,7 +5,7 @@ Um simples, porém robusto, simulador de tráfego totalmente construído em PHP 
 Este projeto é um MVP (Produto Mínimo Viável) que demonstra a lógica de um sistema de trânsito com regras complexas, como semáforos inteligentes, comportamento probabilístico de motoristas e detecção de colisões.
 
 ### Visualização no Console
-![Exemplo de como o simulador aparece no terminal][console](https://postimg.cc/xqzh6NQB)
+![Exemplo de como o simulador aparece no terminal](https://i.postimg.cc/XNHW79zN/imagem-1.jpg)
 *Um exemplo de como o simulador aparece em execução no terminal.*
 
 ---
