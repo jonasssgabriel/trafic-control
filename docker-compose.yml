@@ -1,0 +1,17 @@
+services:
+  app:
+    image: php:8.3-apache
+    container_name: php-apache
+    ports:
+      - "8080:80"
+    volumes:
+      - ./src:/var/www/html
+    depends_on:
+      - composer
+
+  composer:
+    image: composer:latest
+    container_name: composer
+    working_dir: /app
+    volumes:
+      - ./src:/app

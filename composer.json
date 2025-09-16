@@ -1,0 +1,11 @@
+{
+    "name": "edumxk/trafic-control",
+    "description": "Simulação de Sistema de Tráfego em PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
