@@ -13,7 +13,7 @@ const VEICULOS_INICIAIS = 20;
 // -- Tempos do Semáforo (em número de passos/turnos) --
 const TEMPO_SEMAFORO_VERDE = 30;
 const TEMPO_SEMAFORO_VERMELHO = 30;
-const ATRASO_SEMAFORO_VERDE = 3; // <-- NOVA CONFIGURAÇÃO: Turnos de espera após ficar verde
+const ATRASO_SEMAFORO_VERDE = 3; 
 
 // -- Probabilidades (de 0.0 a 1.0) --
 const TAXA_FURO_SEMAFORO = 0.000;
@@ -34,7 +34,7 @@ $simulador = new Simulador(
     VEICULOS_INICIAIS,
     TEMPO_SEMAFORO_VERDE,
     TEMPO_SEMAFORO_VERMELHO,
-    ATRASO_SEMAFORO_VERDE, // <-- Passando o novo parâmetro
+    ATRASO_SEMAFORO_VERDE,
     TAXA_FURO_SEMAFORO,
     TAXA_COLISAO_ESPONTANEA
 );
