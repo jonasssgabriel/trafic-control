@@ -12,10 +12,14 @@ class Cruzamento
 
     public function __construct(
         public readonly int $posicaoX,
-        public readonly int $posicaoY
+        public readonly int $posicaoY,
+        int $tempoVerde,
+        int $tempoVermelho,
+        int $atrasoVerde // Novo: recebe o tempo de atraso
     ) {
-        $this->semaforoHorizontal = new Semaforo(EstadoSemaforo::VERDE, 30, 30);
-        $this->semaforoVertical = new Semaforo(EstadoSemaforo::VERMELHO, 30, 30);
+        // Repassa os tempos, incluindo o de atraso, para os objetos Semaforo
+        $this->semaforoHorizontal = new Semaforo(EstadoSemaforo::VERDE, $tempoVerde, $tempoVermelho, $atrasoVerde);
+        $this->semaforoVertical = new Semaforo(EstadoSemaforo::VERMELHO, $tempoVerde, $tempoVermelho, $atrasoVerde);
     }
 
     public function atualizarSemaforos(): void
