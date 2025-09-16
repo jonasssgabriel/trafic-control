@@ -14,8 +14,8 @@ class Cruzamento
         public readonly int $posicaoX,
         public readonly int $posicaoY
     ) {
-        $this->semaforoHorizontal = new Semaforo(EstadoSemaforo::VERDE, 15, 15);
-        $this->semaforoVertical = new Semaforo(EstadoSemaforo::VERMELHO, 15, 15);
+        $this->semaforoHorizontal = new Semaforo(EstadoSemaforo::VERDE, 30, 30);
+        $this->semaforoVertical = new Semaforo(EstadoSemaforo::VERMELHO, 30, 30);
     }
 
     public function atualizarSemaforos(): void

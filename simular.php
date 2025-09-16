@@ -7,10 +7,10 @@ use App\Simulacao\Simulador;
 // --- PARÂMETROS DA SIMULAÇÃO ---
 
 // Por quantos "passos" ou "turnos" a simulação vai rodar.
-const PASSOS_DA_SIMULACAO = 50;
+const PASSOS_DA_SIMULACAO = 300;
 
 // Quantos veículos começarão na simulação.
-const VEICULOS_INICIAIS = 5;
+const VEICULOS_INICIAIS = 15;
 
 // Por quantos passos um acidente bloqueia a via.
 const TEMPO_RESOLUCAO_ACIDENTE = 20;
