@@ -5,7 +5,7 @@ Um simples, porém robusto, simulador de tráfego totalmente construído em PHP 
 Este projeto é um MVP (Produto Mínimo Viável) que demonstra a lógica de um sistema de trânsito com regras complexas, como semáforos inteligentes, comportamento probabilístico de motoristas e detecção de colisões.
 
 ### Visualização no Console
-![Exemplo de como o simulador aparece no terminal](https://i.imgur.com/uR13p3R.png)
+![Exemplo de como o simulador aparece no terminal][console](https://postimg.cc/xqzh6NQB)
 *Um exemplo de como o simulador aparece em execução no terminal.*
 
 ---
@@ -35,12 +35,12 @@ Este projeto é um MVP (Produto Mínimo Viável) que demonstra a lógica de um s
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [URL_DO_SEU_REPOSITORIO]
+    git clone https://github.com/edumxk/trafic-control.git
     ```
 
 2.  **Navegue até a pasta do projeto:**
     ```bash
-    cd nome-do-projeto
+    cd trafic-control
     ```
 
 3.  **Instale as dependências** (para o autoloader):
@@ -77,9 +77,3 @@ A simulação avança em "passos". Em cada passo, a lógica é dividida em fases
 1.  **Atualização de Estado:** Semáforos e timers de colisão são atualizados. Acidentes resolvidos são limpos.
 2.  **Planejamento:** Cada veículo ativo "decide" o que fazer (avançar, virar) com base nas regras do mundo (semáforos, outros veículos) e em suas próprias probabilidades.
 3.  **Resolução de Conflitos e Movimentação:** O simulador analisa todos os movimentos planejados, detecta conflitos (colisões), cancela os movimentos inválidos e, por fim, move os veículos que podem avançar com segurança.
-
----
-
-### 📄 Licença
-
-Este projeto está sob a licença MIT.
