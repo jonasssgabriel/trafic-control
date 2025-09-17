@@ -20,7 +20,7 @@ Este projeto é um MVP (Produto Mínimo Viável) que demonstra a lógica de um s
     * Possuem 5% de chance de furar o sinal vermelho.
     * Existe 0.1% de chance de um acidente espontâneo com motivos variados (pneu furado, falha mecânica, etc.).
 * :computer: **Visualização em Tempo Real:** O grid da cidade e um log de eventos são atualizados diretamente no console a cada passo da simulação.
-* :wrench: **Altamente Configurável:** Todos os parâmetros da simulação (tempos, probabilidades, velocidade, etc.) podem ser ajustados facilmente em um único arquivo.
+* :wrench: **Altamente Configurável:** Todos os parâmetros da simulação (tempos, probabilidades, velocidade, etc.) podem ser ajustados facilmente em um único arquivo
 
 ---
 
